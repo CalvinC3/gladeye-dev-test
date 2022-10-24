@@ -1,0 +1,141 @@
+.upperSection {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lowerSection {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.menuIcon {
+    margin-right: 27px;
+    margin-top: 30px;
+}
+
+.Icon {
+    z-index: 2;
+    margin-left: 24px;
+    margin-top: 24px;
+}
+
+
+/* side nave */
+.sideNav {
+    display: hidden;
+    height: 100%;
+    width: 0%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    background: rgba(45, 52, 68, 0.9);
+    /* padding-top: 60px; */
+}
+
+.sideNavisOpen {
+    width: 100%;
+    display: block
+}
+
+.sideNavisClose {
+    width: 0%;
+    display: hidden;
+}
+
+.iconAnimation {
+    transition: 0.5s;
+}
+
+.sideNav a {
+    padding: 8px 29px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    float: right;
+    /* identical to box height, or 100% */
+
+    color: #FFFFFF;
+}
+
+.sideNav a:hover {
+    color: #f1f1f1;
+}
+
+.sideNav .closebtn {
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.navItemsWrapper {
+    margin-top: 6rem;
+}
+
+@media screen and (max-height: 450px) {
+    .sideNav {
+        padding-top: 15px;
+    }
+
+    .sideNav a {
+        font-size: 18px;
+    }
+}
+
+.styledAnchor {
+    padding-bottom: 24px;
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+.arrowButton {
+    display: inline-flex;
+    justify-content: flex-end;
+}
+
+.menuItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.subItems {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+    padding-left: 12px;
+}
+
+.subItemToggle{
+    display: none;
+    transition: 0.5s;
+    margin-top: -20px;
+    opacity: 0.5;
+}
+
+.openedSubItem {
+    display: block !important;
+    margin-top: unset;
+    opacity: unset;
+}
+

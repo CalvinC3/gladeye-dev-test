@@ -1,0 +1,42 @@
+.baseStyle {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.mainHeading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.headingWrapper {
+    height: auto;
+    padding-top: 30rem;
+}
+
+.callToActionWrapper {
+    display: inline-flex;
+    align-items: center;
+    margin-top: 36px;
+
+}
+
+.yellowButton {
+    width: 32px;
+    height: 32px;
+    background: #FFE600;
+    border-radius: 18px;
+    margin-right: 8px;
+}
+
+.yellowButton > svg {
+    left: 4px;
+    color: black;
+    top: 4px;
+    position: relative
+}

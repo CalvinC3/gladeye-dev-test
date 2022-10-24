@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans;
+}
+
+
+.blueBG {
+  background-color: #96E3E8;
+}
+
+.hidden {
+  display: hidden;
+}
+
+.blueBoarder {
+  border-bottom: 1px solid #96E3E8;
+  margin-left: 26px;
+  margin-right: 24px;
+}
